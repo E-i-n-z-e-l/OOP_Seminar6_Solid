@@ -1,6 +1,6 @@
 package solid;
 
-import solid.srp.Point;
+// import solid.srp.Point;
 import solid.srp.Square;
 
 public class Main {
