@@ -1,5 +1,7 @@
 package solid.srp.models;
-
+/*
+Основные методы
+ */
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
