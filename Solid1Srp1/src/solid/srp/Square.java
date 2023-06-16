@@ -12,9 +12,13 @@ public class Square {
         return side * side;
     }
 
-    public getSide(int side) {
+    public setSide(int side) {
         this.side = side;
     }
+
+    public getSide(int side) {
+        return side;
+    } 
 
     public void zoom(float zoom) {
         side = (int) (side * zoom);
