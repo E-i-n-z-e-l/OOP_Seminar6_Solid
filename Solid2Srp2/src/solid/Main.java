@@ -1,5 +1,7 @@
 package solid;
-
+/*
+Файл Main
+ */
 import solid.srp.models.FactoryCreator;
 import solid.srp.models.Order;
 import solid.srp.models.SaveToJson;
