@@ -1,5 +1,7 @@
 package solid.srp.models;
-
+/*
+Сохранение в формате .json
+ */
 import java.io.FileWriter;
 import java.io.IOException;
 
