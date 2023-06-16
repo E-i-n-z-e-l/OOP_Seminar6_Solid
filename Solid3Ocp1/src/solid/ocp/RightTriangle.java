@@ -1,5 +1,7 @@
 package solid.ocp;
-
+/*
+Правильный треугольник и его методы
+ */
 public class RightTriangle implements Shape {
     private int katet1;
     private int katet2;
