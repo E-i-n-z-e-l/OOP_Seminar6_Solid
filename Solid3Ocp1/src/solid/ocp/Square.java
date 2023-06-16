@@ -1,5 +1,7 @@
 package solid.ocp;
-
+/*
+Квадрат и его методы
+ */
 public class Square  implements Shape {
     private int side;
     public Square(int side) {
