@@ -12,6 +12,10 @@ public class Square {
         return side * side;
     }
 
+    public getSide(int side) {
+        this.side = side;
+    }
+
     public void zoom(float zoom) {
         side = (int) (side * zoom);
     }
