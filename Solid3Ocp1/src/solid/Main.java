@@ -1,5 +1,7 @@
 package solid;
-
+/*
+Файл Main
+ */
 import solid.ocp.RightTriangle;
 import solid.ocp.Shape;
 import solid.ocp.Square;
