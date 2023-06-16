@@ -1,5 +1,7 @@
 package solid.srp.models;
-
+/*
+Ввод данных пользователем
+ */
 import java.util.Scanner;
 
 public class FactoryCreator {
