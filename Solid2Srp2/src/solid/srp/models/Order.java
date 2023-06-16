@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Order {
-    private String clientName;
-    private String product;
-    private int qnt;
-    private int price;
+    private String clientName; // Имя клиента;
+    private String product; // Продукт/Товар;
+    private int qnt; // Количество;
+    private int price; // Цена;
 
     public Order(String clientName, String product, int qnt, int price) {
         this.clientName = clientName;
@@ -33,7 +33,7 @@ public class Order {
         return price;
     }
 
-    public void saveToJson() {
+    public void saveToJson() { // Сохранение в файле .json;
         String fileName = "order.json";
         try (FileWriter writer = new FileWriter(fileName, false)) {
             writer.write("{\n");
@@ -48,16 +48,4 @@ public class Order {
         }
     }
 
-    public void inputFromConsole(){
-        clientName = prompt("Client name: ");
-        product = prompt("Product: ");
-        qnt = Integer.parseInt(prompt("Quantity: "));
-        price = Integer.parseInt(prompt("Price: "));
-    }
-
-    private String prompt(String message) {
-        Scanner in = new Scanner(System.in);
-        System.out.print(message);
-        return in.nextLine();
-    }
 }
