@@ -1,11 +1,12 @@
-public class Persister{
-	private User user;
-	
-	public Persister(User user){
+public class Persister extends UserSave{
+	private UserSave user;
+
+	public Persister(UserSave user) {
+		super(user.getName(), user.getSurname());
 		this.user = user;
 	}
-	
-	public void save(){
-		System.out.println("Save user: " + user.getName());
+
+	public void save() {
+		user.saveUser();
 	}
 }
